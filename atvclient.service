@@ -1,0 +1,10 @@
+[Unit]
+Description=ATVClient
+
+[Service]
+EnvironmentFile=/etc/conf.d/atvclient
+ExecStart=/usr/bin/atvclient $DAEMON_ARGS
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
