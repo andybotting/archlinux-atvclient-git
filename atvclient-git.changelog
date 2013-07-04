@@ -1,3 +1,6 @@
+2013-07-05
+* Add new systemd service script and remove old daemon script
+
 2010-12-09
 * Rebuild because of the libusb upgrade: replaced libusb dependency with
   libusb-compat
